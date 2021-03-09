@@ -14,6 +14,22 @@
 `<ins>`<br>It defines text that has been **inserted into** a document. Browsers will usually underline inserted text.<br>
 `<sub>`<br>It defines subscript text. It appears half a character **below** the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O.<br>
 `<sup>`<br>It defines superscript text. It appears half a character **above** the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes.<br>
+<br>
 `<blockquote>`<br>It defines a section that is quoted from another source.Usually use `cite` attribute to specify the source url.<br>
 `<q>`<br>It defines a short quotation. Browsers normally insert quotation marks around the quotation. Ex: `<q>sample</q>` would be "sample".<br>
+`<abbr>`<br>It defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM". It can give useful information to browsers, translation systems and search-engines. Use `title` attribute to show the abbreviation or acronym.<br>
+`<address>`<br>It defines the contact information for the author/owner of a document or an artical. The contact info can be email address, phone number, social media handle(username), etc. The text usually renders in italic, and browsers will always add a line break before and after the element.<br>
+`<cite>`<br>It defines the title of a creative work(books, poems, songs, movies, etc.), exclude a person's name. The text usually renders in italic.<br>
+
+## Not-Often-Use
+`<bdo>`<br>It used to override the current text direction. Need to using `dir` attribute. If dir="rtl", the text will be writen from right to left. If dir="ltr", the text will be writen from left to right(normally).
+## Some little tips
+**HTML-Comment**<br>
+```
+<!-- Comments --> 
+or 
+<!-- comments 
+<p>Sample text</p>
+-->
+```
 
