@@ -14,3 +14,6 @@
 `<ins>`<br>It defines text that has been **inserted into** a document. Browsers will usually underline inserted text.<br>
 `<sub>`<br>It defines subscript text. It appears half a character **below** the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O.<br>
 `<sup>`<br>It defines superscript text. It appears half a character **above** the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes.<br>
+`<blockquote>`<br>It defines a section that is quoted from another source.Usually use `cite` attribute to specify the source url.<br>
+`<q>`<br>It defines a short quotation. Browsers normally insert quotation marks around the quotation. Ex: `<q>sample</q>` would be "sample".<br>
+
