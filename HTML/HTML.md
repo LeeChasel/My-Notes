@@ -32,4 +32,38 @@ or
 <p>Sample text</p>
 -->
 ```
-
+## Style Attribute(CSS)
+- `style="background-color:Tomato;"`<br>The text background will be Tomato color.
+- `style="color:DogerBlue;"`<br>The text color will be DogerBlue.
+- `style="border:2px solid Tomato;"`<br>Set the border color.
+- `style="font-size:160%;"`<br>The text size will be 160% bigger.
+- `style="text-align:center;"`<br>The text will be align to the center.
+- `style="border: 2px solid;"`<br>Set the black border.
+- `style="padding: 30px;"`<br>It defines a padding(space) between the text and the border.
+- `style="margin: 50px;"`<br>It defines a margin(space) outside the border.
+## CSS Part
+- Inline - by using the style attribute inside HTML elements. Ex: `<p style="color:red;">A red paragraph.</p>`
+- Internal - by using a <style> element in the `<head>` section.<br>
+Ex:
+```
+<style>
+body {background-color: powderblue;}
+h1 {color: blue;}
+p {color:red;}
+```
+- External - by using a <link> element to link to an external CSS file. **Most common way to add CSS**
+Ex:
+```
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+```
+and the style.css will be: 
+```
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+```
